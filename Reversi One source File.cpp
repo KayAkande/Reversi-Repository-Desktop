@@ -9,8 +9,12 @@
 #include <ctime>
 
 //#include "char"
+//Something was added
 
 
+
+
+//Something else
 //REMOVE THESE
 enum class Piece { LIGHT, DARK, EMPTY, BORDER };
 std::ostream& operator<< (std::ostream& stream, const Piece& pieceIn)
