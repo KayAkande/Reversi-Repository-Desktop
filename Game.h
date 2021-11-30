@@ -1,4 +1,11 @@
 //GAME.h
+
+
+#include "Board.h"
+#include "Player.h"
+#include "Humanplayer.h"
+
+
 class Game {
 
 	Board gameBoard;

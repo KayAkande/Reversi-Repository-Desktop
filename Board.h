@@ -2,6 +2,10 @@
 #include "list"
 #include "Move.cpp"
 
+
+#ifndef BOARD_H
+#define BOARD_H
+
 //BOARD.H
 //typedef int Move;
 enum class Piece { LIGHT, DARK, EMPTY, BORDER };
@@ -36,3 +40,6 @@ public:
 	Move getMove(int, int) const;
 
 };
+
+
+#endif
