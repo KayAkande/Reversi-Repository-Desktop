@@ -1,6 +1,6 @@
 //GAME.h
 
-
+#include "ComputerPlayer.h"
 #include "Board.h"
 #include "Player.h"
 #include "Humanplayer.h"
