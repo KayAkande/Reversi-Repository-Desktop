@@ -11,6 +11,7 @@
 
 //something
 
+
 //REMOVE THESE
 enum class Piece { LIGHT, DARK, EMPTY, BORDER };
 //main
@@ -76,11 +77,6 @@ public:
 	Move getMove(int, int) const;
 
 };
-
-
-
-
-
 
 
 
