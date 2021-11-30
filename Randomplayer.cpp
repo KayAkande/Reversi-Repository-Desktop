@@ -5,6 +5,7 @@
 #include <cmath>
 #include <cstdlib>
 #include <ctime>
+#include "Computerplayer.h"
 
 class RandomPlayer : public ComputerPlayer {
 
