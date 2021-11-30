@@ -9,6 +9,8 @@
 
 //#include "char"
 
+//something
+
 //REMOVE THESE
 enum class Piece { LIGHT, DARK, EMPTY, BORDER };
 //main
@@ -133,7 +135,7 @@ void Board::display() {
 	for (int i = 0; i < boardSqaures; i++) {
 		if (i < 10) {
 			std::cout << "0"<< i << "-" << squares[i];
-		}else{ 
+		}else{
 			std::cout << i << "-" << squares[i];
 		}
 
